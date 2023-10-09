@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Eligibility</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Discount Eligibility Program</h1>
+    <div class="center">
+        <div class="header">
+            Check if you qualify
+        </div>
+
+        <form>
+            <h4>Age</h4>
+            <input id="age" type="number" name="age"> <br>
+            <label for="status">
+                <h4>Are You A Member?</h4>
+            </label>
+            <input class="rad" type="radio" id="yes" name="member" value="yes" required>
+            <label for="yes"> Yes</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rad" type="radio" id="no" name="member" value="no" required>
+            <label for="no">No</label> <br>
+            <input type="submit" onclick="checkQualification()" value="Submit">
+        </form>
+    </div>
+    <br><br>
+
+</body>
+
+</html>

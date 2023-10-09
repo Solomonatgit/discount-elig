@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #02aab0, #00cdac);
+    height: 100vh;
+
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    width: 430px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.center .header {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 25px 0 30px 25px;
+    background: #02aab0;
+    border-bottom: 1px solid #00cdac;
+    border-radius: 5px 5px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center form {
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 50px 10px 0 30px;
+    box-sizing: border-box;
+    border: 1px solid #02aab0;
+    border-radius: 0 0 5px 5px;
+}
+
+form input {
+    height: 50px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    font-size: 18px;
+    outline: none;
+}
+
+form input.rad {
+    height: 15px;
+    width: 4%;
+}
+
+form input[type="submit"] {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 130px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: #02aab0;
+}
+
+form input[type="submit"]:hover {
+    background: #02aab0;
+    transition: .5s;
+}
+
+.rad {
+    width: 5%;
+}
